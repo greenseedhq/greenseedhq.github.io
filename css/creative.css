@@ -526,12 +526,23 @@ body {
 @media(max-width:767px){
 
   .colorDissolve {
+  position: relative;
+  overflow: hidden;
+  width: 287px;
+  height: 410px;
+  left:10%;
+
     background-image: url(../img/Screens/HomeScreen.png);
       background-size: 70% 100%;
     background-repeat: no-repeat;
 
-}  
 }
+
+}
+.carousel-big{
+    position:relative;top:50px;right:43px;height:60%; width:61%;
+}
+@media(min-width:767px){
 
 
 /* colorDissolve  */
@@ -545,7 +556,7 @@ body {
       background-size: 70% 100%;
     background-repeat: no-repeat;
 
-}
+}}
 .colorDissolve .item {
   position: absolute;
   left: 0;
