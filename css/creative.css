@@ -635,5 +635,7 @@ position:absolute;
 
 @media(max-width:767px){
 .small-scr{
-    padding-left:15%;
+   display: block;
+    margin-right: auto;
+    margin-left: 10%;
 }}
