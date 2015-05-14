@@ -172,6 +172,7 @@ aside {
     }
 }
 
+
 header {
     position: relative;
     width: 100%;
@@ -186,11 +187,13 @@ header {
     -o-background-size: cover;
 }
 
+
 header .header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+
 }
 
 header .header-content .header-content-inner h1 {
@@ -210,11 +213,22 @@ header .header-content .header-content-inner p {
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
-
 @media(min-width:768px) {
+   
+
     header {
-        min-height: 100%;
-    }
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/header.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
     header .header-content {
         position: absolute;
@@ -230,6 +244,13 @@ header .header-content .header-content-inner p {
         margin-left: auto;
         max-width: 1000px;
     }
+
+    header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
     header .header-content .header-content-inner p {
         margin-right: auto;
@@ -611,3 +632,8 @@ position:absolute;
     0%, 25%, 100% { opacity: 0; }
     4.17%, 20.84% { opacity: 1;}
 }
+
+@media(max-width:767px){
+.small-scr{
+    padding-left:15%;
+}}
