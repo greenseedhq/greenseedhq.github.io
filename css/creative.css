@@ -66,12 +66,14 @@ p {
 
 h2.story{
     color:#427512;
+    line-height: 40px;
 }
 
 h2.ourstory{
     color:#fff;
     background-color: #427512;
-    padding:20px ;
+    padding:15px ;
+     line-height: 40px;
 }
 
 
@@ -650,3 +652,10 @@ position:absolute;
     margin-right: auto;
     margin-left: 10%;
 }}
+
+
+
+
+.fivepara{
+    font-size: 18px;
+}
