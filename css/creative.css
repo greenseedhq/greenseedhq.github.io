@@ -573,9 +573,12 @@ body {
 }
 
 }
+
+
 .carousel-big{
     position:relative;top:50px;right:43px;height:60%; width:61%;
 }
+
 @media(min-width:767px){
 
 
@@ -613,7 +616,8 @@ body {
   -ms-animation-delay: 12s;
   animation-delay: 12s;
 }
-span{
+
+/*span{
 position:absolute;
     top:0px;
     left:0px;
@@ -622,6 +626,8 @@ position:absolute;
     -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
 }
+*/
+
 .colorDissolve .item:nth-child(4) {
   -webkit-animation-delay: 18s;
   -moz-animation-delay: 18s;
