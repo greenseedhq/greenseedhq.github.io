@@ -4,6 +4,36 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+$(document).ready(function(){
+    $(".facebook").hover(function() {
+        $(this).attr("src","img/facebookglow.png");
+            }, function() {
+        $(this).attr("src","img/facebook.png");
+    });
+});
+
+
+$(document).ready(function(){
+    $(".twitter").hover(function() {
+        $(this).attr("src","img/twitterglow.png");
+            }, function() {
+        $(this).attr("src","img/twitter.png");
+    });
+});
+
+
+
+$(document).ready(function(){
+    $(".instagram").hover(function() {
+        $(this).attr("src","img/instagramglow.png");
+            }, function() {
+        $(this).attr("src","img/instagram.png");
+    });
+});
+
+
+
 (function($) {
     "use strict"; // Start of use strict
 
