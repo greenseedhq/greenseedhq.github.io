@@ -135,6 +135,43 @@ aside {
     background-color: transparent;
 }
 
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+section.download {
+  padding: 150px 0;
+  position: relative;
+}
+section.download h2 {
+  margin-top: 0;
+  font-size: 50px;
+}
+section.download .badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+section.download .badges .badge-link:last-child {
+  margin-bottom: 0;
+}
+section.download .badges .badge-link img {
+  height: 60px;
+}
+@media (min-width: 768px) {
+  section.download .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  section.download h2 {
+    font-size: 70px;
+  }
+}
+
+
+
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
@@ -193,7 +230,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.png);
+    background-image: url(../img/header.jpeg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -236,7 +273,7 @@ header .header-content .header-content-inner p {
     min-height: 100%;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.png);
+    background-image: url(../img/header.jpeg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
